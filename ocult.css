@@ -55,6 +55,8 @@ body{
 }
 .start{
   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
   
 }
 .start h2{
@@ -104,6 +106,10 @@ body{
   text-align: center;
   letter-spacing: 2px;
 }
+.info p{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 .sblf{
   font-family: 'Moglan', sans-serif;
   letter-spacing: 2px;
@@ -143,6 +149,8 @@ body{
 }
 .info2{
   letter-spacing: 2px;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 .info2img{
   float: right;
