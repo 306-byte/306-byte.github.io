@@ -1,0 +1,332 @@
+@font-face {
+    font-family: 'Moglan';
+    src: url('Moglan_DEMO.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: beige;
+    padding: 0;
+    font-family: sans-serif;
+    padding-left: 50px ;
+    padding-right: 50px ;
+    box-sizing: border-box;
+    padding-top: 0;
+    margin: 0;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;        /* ← Detta gör att innehållet staplas vertikalt */
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  background-image: url(header.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  
+}
+.hero h1 {
+    transform: translateY(-50px); /* flyttar upp texten */
+    color: white;
+    font-size: 3rem;
+    text-shadow:  
+       2px 2px 4px rgba(0, 0, 0, 0.9),
+       4px 4px 8px rgba(0, 0, 0, 0.8),
+       6px 6px 12px rgba(0, 0, 0, 0.6);
+    font-family: 'Moglan', sans-serif;
+    font-weight: bold;
+}
+.hero h2{
+  text-shadow:  rgb(0, 0, 1);
+  font-family: 'Moglan', sans-serif;
+  color: white;
+  text-shadow:
+    2px 2px 4px rgba(0, 0, 0, 0.9),
+    4px 4px 8px rgba(0, 0, 0, 0.8),
+    6px 6px 12px rgba(0, 0, 0, 0.6),
+    8px 8px 14px rgba(0, 0, 0, 0.6),
+    10px 10px 16px rgba(0, 0, 0, 0.6);
+
+}
+.start{
+  text-align: center;
+  
+}
+.start h2{
+  font-family: 'Moglan', sans-serif;
+  letter-spacing: 2px;
+}
+
+.row {
+    display: flex;
+    box-sizing: border-box;
+    padding-top: 40px;
+    text-align: center;
+    align-items: stretch;
+  }
+
+  .row img{
+    width: 250px;
+    height: 300px;
+  }
+  .row h3,p{
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 2px;
+  }
+  h3{
+    font-family: 'Moglan', sans-serif;
+  }
+  .column {
+   
+    flex: 33%;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .utt{
+    padding-top: 70px;
+  }
+  .mitten{
+    padding-top: 20px;
+  }
+  .skall{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+
+.info{
+  padding: 40px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.sblf{
+  font-family: 'Moglan', sans-serif;
+  letter-spacing: 2px;
+  font-weight: bold;
+ 
+}
+.sbl{
+  font-family: 'Moglan', sans-serif;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.sl{
+  font-family: 'Moglan', sans-serif;
+  font-size: 20px;
+}
+.bl{
+  font-weight: bold;
+}
+.divider {
+  border: none;
+  height: 3px; /* Linjens tjocklek */
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.1)); /* Skuggeffekt från mitten */
+  margin: 20px 0; /* Avstånd ovanför och under linjen */
+  width: 95%; /* Bredden på linjen */
+  margin-left: auto;
+  margin-right: auto; /* Centrerar linjen */
+}
+.divider-s {
+  border: none;
+  height: 3px; /* Linjens tjocklek */
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.1)); /* Skuggeffekt från mitten */
+  margin: 20px 0; /* Avstånd ovanför och under linjen */
+  width: 60%;/* Bredden på linjen */
+  margin-left: auto;
+  margin-right: auto; /* Centrerar linjen */
+}
+.info2{
+  letter-spacing: 2px;
+}
+.info2img{
+  float: right;
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+.kontakt{
+  display: inline;
+}
+
+.plats{
+  text-align: right;
+}
+
+
+@media (max-width: 890px) {
+  body{
+    background-color: beige;
+    
+    font-family: sans-serif;
+    
+    box-sizing: border-box;
+    padding-top: 0;
+    margin: 0;
+}
+  hero {
+    display: flex;
+          
+    
+    align-items: center;
+  
+    height: 100vh;
+    background-image: url(header.jpg);
+    background-size: cover;
+    background-position: center;
+   
+    
+    
+  }
+  .hero h1 {
+      transform: translateY(-50px); /* flyttar upp texten */
+      color: white;
+      font-size: 2,5rem;
+      text-shadow:  
+         2px 2px 4px rgba(0, 0, 0, 0.9),
+         4px 4px 8px rgba(0, 0, 0, 0.8),
+         6px 6px 12px rgba(0, 0, 0, 0.6);
+      font-family: 'Moglan', sans-serif;
+      font-weight: bold;
+      letter-spacing: 3px;
+      text-align: center;
+  }
+  .hero h2{
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: 'Moglan', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-shadow:
+      2px 2px 4px rgba(0, 0, 0, 0.9),
+      4px 4px 8px rgba(0, 0, 0, 0.8),
+      6px 6px 12px rgba(0, 0, 0, 0.6),
+      8px 8px 14px rgba(0, 0, 0, 0.6),
+      10px 10px 16px rgba(0, 0, 0, 0.6);
+  
+  }
+  
+  .row {
+    display: block;
+    box-sizing: border-box;
+    padding-top: 40px;
+    text-align: center;
+    align-items: stretch;
+    overflow-x: none;
+    
+  }
+ 
+
+  .row img{
+    width: 250px;
+    height: 300px;
+  }
+  .row h3,p{
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+  }
+  h3{
+    font-family: 'Moglan', sans-serif;
+  }
+ 
+ 
+  .skall{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+  .info2img{
+    width: 300px;
+    float: right;
+    padding-left: 15px;
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 650px){
+  .hero h1 {
+    transform: translateY(-50px); /* flyttar upp texten */
+    color: white;
+    font-size: 2,5rem;
+    text-shadow:  
+       2px 2px 4px rgba(0, 0, 0, 0.9),
+       4px 4px 8px rgba(0, 0, 0, 0.8),
+       6px 6px 12px rgba(0, 0, 0, 0.6);
+    font-family: 'Moglan', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.hero h2{
+  text-align: center;
+  letter-spacing: 3px;
+ font-family: sans-serif;
+  font-size: 15px;
+  color: white;
+  text-shadow:
+    2px 2px 4px rgba(0, 0, 0, 0.9),
+    4px 4px 8px rgba(0, 0, 0, 0.8),
+    6px 6px 12px rgba(0, 0, 0, 0.6),
+    8px 8px 14px rgba(0, 0, 0, 0.6),
+    10px 10px 16px rgba(0, 0, 0, 0.6);
+
+}
+.info2img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+  float: none;
+}
+.info2 p{
+  padding-top: 20px;
+  align-items: center;
+}
+
+}
+@media (max-width: 460px){
+  body{
+    background-color: beige;
+ 
+    font-family: sans-serif;
+   
+    box-sizing: border-box;
+
+}
+  .hero h1 {
+    transform: translateY(-50px); /* flyttar upp texten */
+    color: white;
+    font-size: 2,2rem;
+    text-shadow:  
+       2px 2px 4px rgba(0, 0, 0, 0.9),
+       4px 4px 8px rgba(0, 0, 0, 0.8),
+       6px 6px 12px rgba(0, 0, 0, 0.6);
+    font-family: 'Moglan', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.hero h2{
+  display: none;
+ 
+}
+.info2{
+  padding: none;
+  text-align: center;
+}
+
+.info2img{
+
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  
+}
+ }
