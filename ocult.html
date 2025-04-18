@@ -53,8 +53,9 @@
  
 <div class="info">
     <hr class="divider">
-    <p><span class="sbl">what is occultism?</span> <br>
-
+    <h1>what is occultism? </h1>
+    <br>
+        <p>
         Occultism encompasses the study of secret and spiritual knowledge, often outside traditional religious and scientific frameworks. It may include:
         <br>
         <br>
@@ -91,6 +92,33 @@
     </p>
 
 </div>
+<div class="break"></div> 
+<div class="du">
+    <h1>do you have more information?</h1>
+    <button class="button-du" onclick="getUserInfo()">write here</button>
+    <p>If you enter everything, it will be sent and you will receive a thank you <br>
+        <em class="fint">  (name school and info must be written it is mandatory)</em>
+    </p>  
+     
+    <p id="demo"></p>
+</div>
+
+
+<!-- Popuprutan -->
+<div id="overlay" class="overlay">
+    <div class="popup">
+      <h2>Write your information</h2>
+      <input id="nameInput" type="text" placeholder="Name">
+      <input id="schoolInput" type="text" placeholder="School or Company">
+      <input id="infoInput" type="text" placeholder="Your info">
+      <button onclick="submitInfo()">Send</button>
+    </div>
+  </div>
+  
+  <!-- Visar användarens text -->
+ 
+
+
 <div class="kontakt">
     <hr class="divider slut">
 <div class="skola">
@@ -116,5 +144,31 @@
 </div>
 </div>
 <hr class="divider">
+
+
+<script>
+function getUserInfo() {
+  document.getElementById("overlay").style.display = "flex";
+}
+
+function submitInfo() {
+  const name = document.getElementById("nameInput").value;
+  const school = document.getElementById("schoolInput").value;
+  const info = document.getElementById("infoInput").value;
+if(name && school && info){
+  document.getElementById("demo").innerHTML = `
+    <strong>thank you ${name}</strong><br>
+   
+  `;}
+
+  else {
+    // Gör inget
+    document.getElementById("demo").innerHTML = "";
+  }
+  document.getElementById("overlay").style.display = "none";
+}
+
+    
+    </script>
 </body>
 </html>

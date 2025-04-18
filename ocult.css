@@ -107,8 +107,15 @@ body{
   letter-spacing: 2px;
 }
 .info p{
-  padding-top: 50px;
+  
   padding-bottom: 50px;
+}
+.info h1{
+  
+  font-family: 'Moglan', sans-serif;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding-top: 50px;
 }
 .sblf{
   font-family: 'Moglan', sans-serif;
@@ -129,12 +136,65 @@ body{
 .bl{
   font-weight: bold;
 }
+
+.du{
+  text-align: center;
+  padding-top: 100px;
+  font-family: 'Moglan', sans-serif;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+.fint{
+  font-size: 12px;
+}
+.button-du{
+  font-size: 20px;
+}
+
+.break {
+  clear: both;
+}
+.overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popup {
+  background: white;
+  padding: 20px 30px 20px 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  box-shadow: 0 0 10px black;
+ 
+}
+
+.popup input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.popup button {
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+
 .divider {
   border: none;
   height: 3px; /* Linjens tjocklek */
   background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.1)); /* Skuggeffekt från mitten */
   margin: 20px 0; /* Avstånd ovanför och under linjen */
-  width: 95%; /* Bredden på linjen */
+  width: 100%; /* Bredden på linjen */
   margin-left: auto;
   margin-right: auto; /* Centrerar linjen */
 }
@@ -285,6 +345,7 @@ body{
     10px 10px 16px rgba(0, 0, 0, 0.6);
 
 }
+
 .info2img{
   display: block;
   margin-left: auto;
