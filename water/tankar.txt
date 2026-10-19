@@ -1,0 +1,19 @@
+shadow boxes for drop shadow 
+rounded boxes 
+boxes transparent ligt blue 
+Inner shadow White
+
+
+<div> Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware"> Good Ware </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
+
+
+text
+A Revolutionary Water Purification Invention
+
+In recent years, the demand for clean and accessible water has grown rapidly across the globe. A groundbreaking new invention aims to address this issue by introducing a portable, solar-powered water purification device. This innovative technology allows users to transform contaminated water into safe drinking water within minutes, making it especially useful in remote areas and disaster zones.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. This device uses advanced filtration membranes combined with ultraviolet light to eliminate bacteria, viruses, and harmful chemicals without the need for electricity from traditional sources.
+
+Furthermore, the invention is designed with sustainability in mind. It is made from recyclable materials and operates entirely on renewable energy. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Communities that previously struggled with water scarcity can now benefit from a reliable and eco-friendly solution.
+
+In conclusion, this new water purification invention has the potential to significantly improve global health and environmental sustainability. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. As innovation continues to evolve, solutions like this bring hope for a future where clean water is accessible to everyone

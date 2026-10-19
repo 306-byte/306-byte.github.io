@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "bubble1";
+  src: url("Game\ Bubble.otf") format("opentype");
+}
+@font-face {
+  font-family: "bubble2";
+  src: url("Game\ Bubble.ttf") format("TrueType");
+}
+@font-face {
+  font-family: "bubble3";
+  src: url("wet-pet.regular.otf") format("opentype");
+}

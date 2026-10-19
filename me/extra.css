@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "home";
+  src: url("font/Gista\ Danes.otf") format("opentype");
+}
+@font-face {
+  font-family: "crayon";
+  src: url("font/CrayonLibre-Regular.otf") format("opentype");
+}
+

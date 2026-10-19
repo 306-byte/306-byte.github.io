@@ -1,0 +1,66 @@
+body {
+  background-image: url(istockphoto-1408518230-612x612.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  padding-left: 90px;
+  padding-right: 90px;
+  overflow: visible;
+}
+
+.hd {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "bubble3", sans-serif;
+  font-size: 100px;
+  color: rgb(133, 192, 243);
+  text-shadow: -1px 8px 10px rgb(36, 42, 92), 0 5px 15px rgba(255, 255, 255, 0.59);
+}
+
+.water {
+  aspect-ratio: 10;
+  background: radial-gradient(ellipse at 30% 20%, rgba(119, 238, 230, 0.444) 0%, rgba(21, 73, 99, 0.323) 50%, rgba(9, 34, 55, 0.777) 100%);
+  clip-path: shape(from 87.45% 45.02%, curve to 92.48% 56.45% with 90.99% 50%, smooth to 92.05% 69.35%, smooth to 82.42% 77.15%, smooth to 71.01% 83.22%, smooth to 61.91% 91.53%, smooth to 49.74% 96.95%, smooth to 38.7% 91.46%, smooth to 25.99% 85.79%, smooth to 15.38% 80.54%, smooth to 14.3% 66.9%, smooth to 13.33% 55.08%, smooth to 11.2% 44.3%, smooth to 11.95% 32.32%, smooth to 16.84% 21.25%, smooth to 27.31% 15.38%, smooth to 38.83% 11.12%, smooth to 50.39% 5.23%, smooth to 62.85% 5.6%, smooth to 72.7% 14.03%, smooth to 79.11% 24.51%, smooth to 82.8% 34.84%, smooth to 87.45% 45.02%);
+}
+
+.row {
+  display: flex;
+  gap: 60px;
+}
+
+.column {
+  flex: 2;
+}
+
+.left {
+  float: right;
+  text-align: center;
+  width: 60px;
+  padding: 100px;
+  flex: 1;
+  font-family: "bubble3", sans-serif;
+  color: rgb(207, 233, 249);
+}
+.left.ferg {
+  color: rgb(207, 233, 249);
+  text-shadow: 2px 2px rgba(230, 151, 242, 0.51), 3px 4px rgba(41, 243, 23, 0.322), 6px 6px rgba(81, 81, 172, 0.755);
+}
+
+.right {
+  text-align: center;
+  width: 45%;
+  padding: 100px;
+  color: rgb(13, 46, 75);
+  font-family: "bubble2", sans-serif;
+}
+
+.myke {
+  font-family: "bubble1", sans-serif;
+  padding-bottom: 50px;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 50px;
+}/*# sourceMappingURL=water.css.map */

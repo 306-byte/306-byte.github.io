@@ -1,0 +1,112 @@
+body{
+    background-image: url(bild/bk.jpg);
+    background-size: cover;
+    padding-left: 230px;
+    padding-right: 230px;
+    
+      display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: aliceblue;
+ 
+
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+}
+
+.hn{
+ background-image: url(bild/bkgif.gif);
+ background-size: cover;
+ background-position: center;
+ background-repeat: repeat;
+ background-color: rgb(212, 0, 255);
+
+     
+     display: flex;
+     justify-content: center;
+     padding: 20px;
+    color: rgb(0, 0, 0);
+
+        .hemnamn{   
+            font-weight: bold;
+            font-size: 70px;
+            display: flex;
+             justify-content: center;
+        }
+}
+
+
+
+.box{
+background-color: black;
+background-image: url(bild/bk3.jpg);
+
+
+  
+ 
+    .box2{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   
+    }
+
+     .profil{
+            background-color: rgb(238, 248, 249);
+            padding: 10px;
+            font-family: 'crayon', Courier, monospace;
+     .title{
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            color: black;
+            }
+            }
+
+     .start{
+  
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 80%;
+        
+        padding-top: 40px;
+
+        .a{
+            
+            
+             text-align: center;
+            img{
+                width: 100%;
+                height: 150px;
+            }
+            
+        }
+        
+     }
+.ad{
+            padding: 40px;
+}
+
+.cd{
+    .c{
+        width: 150px;
+    }
+    .d{
+       width: 500px; 
+    }
+}
+
+     
+.det{
+    width: 100%;
+}
+}
+.det2{
+    padding-top: 60px;
+    width: 100%;
+} 
+
